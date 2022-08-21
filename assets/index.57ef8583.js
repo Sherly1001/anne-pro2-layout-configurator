@@ -89,7 +89,7 @@ Macbook screen Brightness Up`,107:"XF86Launch7",108:"XF86Launch8",109:"XF86Launc
 `)?" with_shift":"")+(n!=e?" modified":"")+(r?" "+r:"")+(l?" selected":""),onClick:u=>o&&o(u,t),children:n.split(`
 `).map((u,i)=>j("span",{children:u},i))}),Qd=({layout:e,layer:n,selectedKey:t,onKeySelect:r})=>j("div",{className:"keyboard-base",children:e[n].map((l,o)=>j(Hd,{index:o,defaultText:W[nl[n][o]],currentText:W[l],onKeySelect:r,selected:t==o},o))}),Kd=({onKeySelect:e})=>{const[n,t]=ve.exports.useState(""),[r,l]=ve.exports.useState([]);return ve.exports.useEffect(()=>{const o=W.map((u,i)=>({key:u,idx:i,len:ju.size(u.toLowerCase(),n.toLowerCase())}));l(o.sort((u,i)=>i.len-u.len))},[n]),tl("div",{className:"keyboard-x",children:[j("div",{children:j("input",{placeholder:"Search key",value:n,onChange:o=>t(o.target.value)})}),j("div",{className:"keylist",children:r.map(({key:o,idx:u})=>{var i;return o&&o!=""&&j("div",{className:"key u125"+(o.includes(`
 `)?" with_shift":o.length>4?" small_text":""),title:(i=Id[u])!=null?i:"",onClick:()=>e&&e(u),children:o.split(`
-`).map((s,c)=>j("span",{children:s},c))},u)})})]})},Xd=()=>j("a",{href:"https://github.com/Stanley00/anne-pro2-layout-configurator",target:"_blank",title:`1. Select Layer on the left
+`).map((s,c)=>j("span",{children:s},c))},u)})})]})},Xd=()=>j("a",{href:"https://github.com/Sherly1001/anne-pro2-layout-configurator",target:"_blank",title:`1. Select Layer on the left
 2. Click the key needed to be changed
 3. Click the key code at the bottom
 4. Save the file and import into ObinsKit application
