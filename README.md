@@ -4,7 +4,7 @@
 
 Home-made Anne Pro 2 Layout Configurator for original ObinsKit firmware but with more keys and more flexible than ObinsKit application.
 
-[Online Demo](https://stanley00.github.io/anne-pro2-layout-configurator/)
+[Online Demo](https://sherly1001.github.io/anne-pro2-layout-configurator/)
 
 # How to use
 

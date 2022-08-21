@@ -1,7 +1,7 @@
 const Help = () => {
   return (
     <a
-      href="https://github.com/Stanley00/anne-pro2-layout-configurator"
+      href="https://github.com/Sherly1001/anne-pro2-layout-configurator"
       target="_blank"
       title="1. Select Layer on the left
 2. Click the key needed to be changed
